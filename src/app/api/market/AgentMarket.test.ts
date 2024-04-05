@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import { AgentMarket } from './AgentMarket';
 
-const baseURL = 'https://chat-agents.lobehub.com';
+const baseURL = 'https://chat-agents.mongriot.com';
 describe('AgentMarket', () => {
   it('should return the default index URL when no language is provided', () => {
     const agentMarket = new AgentMarket();
@@ -13,19 +13,19 @@ describe('AgentMarket', () => {
   it('should return the index URL for a supported language', () => {
     const agentMarket = new AgentMarket();
     const url = agentMarket.getAgentIndexUrl('ko-KR');
-    expect(url).toBe('https://chat-agents.lobehub.com/index.ko-KR.json');
+    expect(url).toBe('https://chat-agents.mongriot.com/index.ko-KR.json');
   });
 
   it('should return the zh-CN URL for zh locale', () => {
     const agentMarket = new AgentMarket();
     const url = agentMarket.getAgentIndexUrl('zh' as any);
-    expect(url).toBe('https://chat-agents.lobehub.com/index.zh-CN.json');
+    expect(url).toBe('https://chat-agents.mongriot.com/index.zh-CN.json');
   });
 
   it('should return the default URL for en locale', () => {
     const agentMarket = new AgentMarket();
     const url = agentMarket.getAgentIndexUrl('en' as any);
-    expect(url).toBe('https://chat-agents.lobehub.com');
+    expect(url).toBe('https://chat-agents.mongriot.com');
   });
 
   it('should return the base URL if the provided language is not supported', () => {

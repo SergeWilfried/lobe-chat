@@ -32,8 +32,8 @@ export default [
     extra: [
       {
         links: {
-          cn: 'https://chat-plugin-sdk.lobehub.com',
-          en: 'https://chat-plugin-sdk.lobehub.com',
+          cn: 'https://chat-plugin-sdk.mongriot.com',
+          en: 'https://chat-plugin-sdk.mongriot.com',
         },
         titles: {
           cn: '插件 SDK 文档',

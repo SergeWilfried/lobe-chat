@@ -280,7 +280,7 @@
     },
     "prompt": {
       "placeholder": "Veuillez saisir le mot de prompt du rôle",
-      "title": "Paramètre du rôle"
+      "title": "Paramètres du rôle"
     },
     "tag": {
       "placeholder": "Veuillez saisir l'étiquette",

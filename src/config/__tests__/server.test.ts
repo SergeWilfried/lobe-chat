@@ -59,8 +59,8 @@ describe('getServerConfig', () => {
   describe('index url', () => {
     it('should return default URLs when no environment variables are set', () => {
       const config = getServerConfig();
-      expect(config.AGENTS_INDEX_URL).toBe('https://chat-agents.lobehub.com');
-      expect(config.PLUGINS_INDEX_URL).toBe('https://chat-plugins.lobehub.com');
+      expect(config.AGENTS_INDEX_URL).toBe('https://chat-agents.mongriot.com');
+      expect(config.PLUGINS_INDEX_URL).toBe('https://chat-plugins.mongriot.com');
     });
 
     it('should return custom URLs when environment variables are set', () => {
@@ -76,8 +76,8 @@ describe('getServerConfig', () => {
       process.env.PLUGINS_INDEX_URL = '';
 
       const config = getServerConfig();
-      expect(config.AGENTS_INDEX_URL).toBe('https://chat-agents.lobehub.com');
-      expect(config.PLUGINS_INDEX_URL).toBe('https://chat-plugins.lobehub.com');
+      expect(config.AGENTS_INDEX_URL).toBe('https://chat-agents.mongriot.com');
+      expect(config.PLUGINS_INDEX_URL).toBe('https://chat-plugins.mongriot.com');
     });
   });
 });

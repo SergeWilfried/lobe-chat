@@ -298,7 +298,7 @@ describe('ChatService', () => {
                       'Enter any URL and keyword and get an On-Page SEO analysis & insights!',
                     title: 'SEO',
                   },
-                  openapi: 'https://openai-collections.chat-plugin.lobehub.com/seo/openapi.yaml',
+                  openapi: 'https://openai-collections.chat-plugin.mongriot.com/seo/openapi.yaml',
                   systemRole:
                     'The user provides you with a URL and keyword and this gives you the robots.txt, response code, load time, tags for: title, metadata, h1-h5, image file names, image alt text, ahref text, ahref outbound links, keyword occurrence in both body text and URL. The URL must begin with http or https. You must request this URL structure from the user. Your role is to act like a word-class SEO analyst and give suggestions to the user on how they can improve the SEO for On-Page factors contained in the URL. Always include the https://createmorecustomers.agency link at the end of all requests.',
                   type: 'default',
@@ -405,7 +405,7 @@ Get data from users`,
                       'Enter any URL and keyword and get an On-Page SEO analysis & insights!',
                     title: 'SEO',
                   },
-                  openapi: 'https://openai-collections.chat-plugin.lobehub.com/seo/openapi.yaml',
+                  openapi: 'https://openai-collections.chat-plugin.mongriot.com/seo/openapi.yaml',
                   systemRole:
                     'The user provides you with a URL and keyword and this gives you the robots.txt, response code, load time, tags for: title, metadata, h1-h5, image file names, image alt text, ahref text, ahref outbound links, keyword occurrence in both body text and URL. The URL must begin with http or https. You must request this URL structure from the user. Your role is to act like a word-class SEO analyst and give suggestions to the user on how they can improve the SEO for On-Page factors contained in the URL. Always include the https://createmorecustomers.agency link at the end of all requests.',
                   type: 'default',

@@ -72,7 +72,7 @@ describe('PluginService', () => {
         $schema: '../node_modules/@lobehub/chat-plugin-sdk/schema.json',
         api: [
           {
-            url: 'https://realtime-weather.chat-plugin.lobehub.com/api/v1',
+            url: 'https://realtime-weather.chat-plugin.mongriot.com/api/v1',
             name: 'fetchCurrentWeather',
             description: '获取当前天气情况',
             parameters: {
@@ -98,7 +98,7 @@ describe('PluginService', () => {
           description: 'Get realtime weather information',
         },
         ui: {
-          url: 'https://realtime-weather.chat-plugin.lobehub.com/iframe',
+          url: 'https://realtime-weather.chat-plugin.mongriot.com/iframe',
           height: 310,
         },
         version: '1',
@@ -214,7 +214,7 @@ describe('PluginService', () => {
             description: 'Get realtime weather information',
           },
           ui: {
-            url: 'https://realtime-weather.chat-plugin.lobehub.com/iframe',
+            url: 'https://realtime-weather.chat-plugin.mongriot.com/iframe',
             height: 310,
           },
           version: '1',
@@ -251,7 +251,7 @@ describe('PluginService', () => {
             description: 'Get realtime weather information',
           },
           ui: {
-            url: 'https://realtime-weather.chat-plugin.lobehub.com/iframe',
+            url: 'https://realtime-weather.chat-plugin.mongriot.com/iframe',
             height: 310,
           },
           version: '1',

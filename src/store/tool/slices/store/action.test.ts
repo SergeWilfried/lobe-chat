@@ -33,7 +33,7 @@ const pluginManifestMock = {
   $schema: '../node_modules/@lobehub/chat-plugin-sdk/schema.json',
   api: [
     {
-      url: 'https://realtime-weather.chat-plugin.lobehub.com/api/v1',
+      url: 'https://realtime-weather.chat-plugin.mongriot.com/api/v1',
       name: 'fetchCurrentWeather',
       description: '获取当前天气情况',
       parameters: {
@@ -59,7 +59,7 @@ const pluginManifestMock = {
     description: 'Get realtime weather information',
   },
   ui: {
-    url: 'https://realtime-weather.chat-plugin.lobehub.com/iframe',
+    url: 'https://realtime-weather.chat-plugin.mongriot.com/iframe',
     height: 310,
   },
   version: '1',
@@ -193,7 +193,7 @@ describe('useToolStore:pluginStore', () => {
         $schema: '../node_modules/@lobehub/chat-plugin-sdk/schema.json',
         api: [
           {
-            url: 'https://realtime-weather.chat-plugin.lobehub.com/api/v1',
+            url: 'https://realtime-weather.chat-plugin.mongriot.com/api/v1',
             name: 'fetchCurrentWeather',
             description: '获取当前天气情况',
             parameters: {
@@ -219,7 +219,7 @@ describe('useToolStore:pluginStore', () => {
           description: 'Get realtime weather information',
         },
         ui: {
-          url: 'https://realtime-weather.chat-plugin.lobehub.com/iframe',
+          url: 'https://realtime-weather.chat-plugin.mongriot.com/iframe',
           height: 310,
         },
         version: '1',

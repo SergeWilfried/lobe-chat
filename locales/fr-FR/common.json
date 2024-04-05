@@ -127,7 +127,7 @@
   "reset": "Réinitialiser",
   "retry": "Réessayer",
   "send": "Envoyer",
-  "setting": "Paramètre",
+  "setting": "Paramètres",
   "share": "Partager",
   "stop": "Arrêter",
   "sync": {
@@ -166,7 +166,7 @@
   "tab": {
     "chat": "Conversation",
     "market": "Découvrir",
-    "setting": "Paramètre"
+    "setting": "Paramètres"
   },
   "telemetry": {
     "allow": "Autoriser",

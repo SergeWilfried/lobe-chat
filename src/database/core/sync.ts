@@ -54,7 +54,7 @@ class DataSync {
       onSyncStatusChange,
       user,
       onAwarenessChange,
-      signaling = 'wss://y-webrtc-signaling.lobehub.com',
+      signaling = 'wss://y-webrtc-signaling.mongriot.com',
     } = params;
     // ====== 1. init yjs doc ====== //
 
