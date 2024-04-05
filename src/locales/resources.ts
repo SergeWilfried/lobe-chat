@@ -21,7 +21,7 @@ export type DefaultResources = typeof resources;
 export type Locales = (typeof locales)[number];
 
 export const normalizeLocale = (locale?: string) => {
-  if (!locale) return 'en-US';
+  if (!locale) return 'fr-FR';
 
   switch (locale) {
     case 'zh-CN':
@@ -35,6 +35,10 @@ export const normalizeLocale = (locale?: string) => {
 
     case 'en': {
       return 'en-US';
+    }
+
+    case 'fr': {
+      return 'fr-FR';
     }
 
     default: {
@@ -119,4 +123,4 @@ export const localeOptions: LocaleOptions = [
   },
 ] as LocaleOptions;
 
-export const supportLocales: string[] = [...locales, 'en', 'zh'];
+export const supportLocales: string[] = [...locales, 'en', 'fr', 'zh'];
