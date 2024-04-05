@@ -23,7 +23,7 @@
     "url": "#"
   },
   "license": "MIT",
-  "author": "GriotIA <bonjour@mongriot.com>",
+  "author": "Griot <bonjour@mongriot.com>",
   "sideEffects": false,
   "scripts": {
     "build": "next build",

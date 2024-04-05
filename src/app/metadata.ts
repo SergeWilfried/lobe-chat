@@ -6,7 +6,7 @@ import { OFFICIAL_URL } from '@/const/url';
 
 import pkg from '../../package.json';
 
-const title = 'GriotIA';
+const title = 'Griot';
 const { description, homepage } = pkg;
 
 const { SITE_URL = OFFICIAL_URL } = getServerConfig();
@@ -55,7 +55,7 @@ const metadata: Metadata = {
 
   title: {
     default: title,
-    template: '%s · GriotIA',
+    template: '%s · Griot',
   },
   twitter: {
     card: 'summary_large_image',

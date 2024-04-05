@@ -18,7 +18,7 @@ export default memo<SettingsCommonProps>((props) => {
       <PageTitle title={t('tab.common')} />
       <Theme />
       <Common {...props} />
-      <Footer>GriotIA v{CURRENT_VERSION}</Footer>
+      <Footer>Griot v{CURRENT_VERSION}</Footer>
     </>
   );
 });
