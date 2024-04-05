@@ -12,6 +12,7 @@ import { MAX_WIDTH } from '@/const/layoutTokens';
 
 import AgentSearchBar from '../../features/AgentSearchBar';
 import Header from './Header';
+import { useTranslation } from 'react-i18next';
 
 const SideBar = dynamic(() => import('./AgentDetail'));
 
@@ -30,6 +31,7 @@ const useStyles = createStyles(({ css }) => ({
 
 const Desktop = memo<PropsWithChildren>(({ children }) => {
   const { theme, styles } = useStyles();
+  const { t } = useTranslation('market');
 
   return (
     <Flexbox flex={1} height={'100%'} id={'lobe-market-container'} style={{ position: 'relative' }}>
@@ -40,7 +42,7 @@ const Desktop = memo<PropsWithChildren>(({ children }) => {
 
           <Flexbox gap={16} style={{ maxWidth: MAX_WIDTH, position: 'relative', width: '100%' }}>
             <Center>
-              <h1 className={styles.title}>Find & Use The Best Tutors</h1>
+              <h1 className={styles.title}>{t('findATutor')}</h1>
               <GridBackground
                 animation
                 className={styles.background}
