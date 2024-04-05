@@ -1,6 +1,6 @@
 {
   "background_color": "#000000",
-  "description": "An open-source, extensible (Function Calling), high-performance chatbot framework. It supports one-click free deployment of your private ChatGPT/LLM web application",
+  "description": "An extensible, high-performance tutoring platform",
   "display": "standalone",
   "icons": [
     {
@@ -54,7 +54,7 @@
       "type": "image/png"
     }
   ],
-  "short_name": "GriotIA",
+  "short_name": "Griot",
   "splash_pages": null,
   "start_url": ".",
   "theme_color": "#000000"
